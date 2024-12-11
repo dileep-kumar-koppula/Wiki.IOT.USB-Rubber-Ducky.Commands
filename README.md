@@ -7,7 +7,7 @@ DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
 ## Alphabets
 | Key      | Code | Description |
-|----------/----------/----------/
+|----------|:----:|:----------:|
 | KEY_A   | 4    | a key       |
 | KEY_B   | 5    | b key       |
 | KEY_C   | 6    | c key       |
