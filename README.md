@@ -6,7 +6,6 @@ DigiKeyboard.sendKeyStroke(KEY_ENTER);
 ```
 
 ## Alphabets
- <div align="center"> 
 | Key      | Code | Description |
 |----------|------|-------------|
 | KEY_A   | 4    | a key       |
