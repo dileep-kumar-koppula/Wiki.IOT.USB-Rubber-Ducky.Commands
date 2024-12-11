@@ -1,22 +1,17 @@
 # DigiKeyboard Key Code Reference
-
-You can Key or it's resp. Code
-Example:
-+ By using Keys
-  ```cpp
-  DigiKeyboard.sendKeyStroke(KEY_A);
-  ```
-+ By using Codes
-  ```cpp
-  DigiKeyboard.sendKeyStroke(4);
-  ```
-------  
-+ Combinations
-  ```cpp
-  DigiKeyboard.sendKeyStroke(KEY_2, MOD_SHIFT_LEFT);
-  ```
+## Usage
+   + Combinations
+     ```cpp
+     DigiKeyboard.sendKeyStroke(KEY_2, MOD_SHIFT_LEFT);
+     ```
 
 ## Alphabets
+   ```cpp
+   DigiKeyboard.sendKeyStroke(KEY_G);
+   ```
+   ```cpp
+   DigiKeyboard.sendKeyStroke(10);
+   ```
 | Key      | Code | Description |
 |:--------:|:----:|:-----------:|
 | KEY_A   | 4    | a key       |
@@ -47,6 +42,12 @@ Example:
 | KEY_Z   | 29   | z key       |
 
 ## Numbers
+   ```cpp
+   DigiKeyboard.sendKeyStroke(KEY_4);
+   ```
+   ```cpp
+   DigiKeyboard.sendKeyStroke(33);
+   ```
 | Key      | Code | Description |
 |:--------:|:----:|:-----------:|
 | KEY_1    | 30   | 1 key       |
@@ -60,7 +61,13 @@ Example:
 | KEY_9    | 38   | 9 key       |
 | KEY_0    | 39   | 0 key       |
 
-## Modules
+## Keys
+   ```cpp
+   DigiKeyboard.sendKeyStroke(KEY_);
+   ```
+   ```cpp
+   DigiKeyboard.sendKeyStroke(KEY_G);
+   ```
 | Key              | Code | Description       |
 |:----------------:|:----:|:-----------------:|
 | KEY_ENTER        | 40   | Enter key         |
@@ -68,10 +75,14 @@ Example:
 | KEY_BACKSPACE    | 42   | Backspace key     |
 | KEY_TAB          | 43   | Tab key           |
 | KEY_SPACE        | 44   | Space Key         |
+
+## Symbols
+| Key              | Code | Description       |
+|:----------------:|:----:|:-----------------:|
 | KEY_MINUS        | 45   | Minus key         |
 | KEY_EQUAL        | 46   | Equal key         |
-| KEY_LEFT_BRACE   | 47   | Left Brace key    |
-| KEY_RIGHT_BRACE  | 48   | Right Brace key   |
+| KEY_LEFT_BRACE   | 47   | [ key    |
+| KEY_RIGHT_BRACE  | 48   | ] key   |
 | KEY_BACKSLASH    | 49   | Backslash key     |
 | KEY_SEMICOLON    | 51   | Semicolon key     |
 | KEY_APOSTROPHE   | 52   | Apostrophe key    |
@@ -82,6 +93,9 @@ Example:
 | KEY_CAPS_LOCK    | 57   | Caps Lock key     |
 
 ## Function Keys
+   ```cpp
+   DigiKeyboard.sendKeyStroke(KEY_A);
+   ```
 | Key      | Code | Description |
 |:---------:|:----:|:----------:|
 | KEY_F1    | 58   | F1 key       |
@@ -98,6 +112,9 @@ Example:
 | KEY_F12   | 69   | F12 key      |
 
 ## Other Keys
+   ```cpp
+   DigiKeyboard.sendKeyStroke(KEY_A);
+   ```
 | Key               | Code | Description      |
 |:-----------------:|:----:|:-----------------:|
 | KEY_PRINTSCREEN    | 70   | Print Screen key  |
@@ -110,6 +127,9 @@ Example:
 | KEY_END             | 77   | End key           |
 
 ## Arrows
+   ```cpp
+   DigiKeyboard.sendKeyStroke(KEY_A);
+   ```
 | Key               | Code | Description      |
 |:-----------------:|:----:|:-----------------:|
 | KEY_PAGE_DOWN       | 78   | Page Down key     |
@@ -119,6 +139,9 @@ Example:
 | KEY_ARROW_UP        | 82   | Up Arrow key      |
 
 ## Keypad buttons
+   ```cpp
+   DigiKeyboard.sendKeyStroke(KEY_A);
+   ```
 | Code | Description |
 |:----:|:-----------:|
 | 83  | Num lock key |
@@ -141,6 +164,9 @@ Example:
 | 100  | < key |
 
 ## Controls
+   ```cpp
+   DigiKeyboard.sendKeyStroke(KEY_A);
+   ```
 | Key              | Description                     |
 |:----------------:|:-------------------------------:|
 | MOD_CONTROL_LEFT  | Left Control key                |
