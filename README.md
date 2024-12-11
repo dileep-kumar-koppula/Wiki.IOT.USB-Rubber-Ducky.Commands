@@ -76,7 +76,7 @@
    | KEY_BACKSLASH | 49 | \ |
    | KEY_SEMICOLON | 51 | ; |
    | KEY_APOSTROPHE | 52 | - |
-   | KEY_GRAVE | 53 | Grave |
+   | KEY_GRAVE | 53 | ` |
    | KEY_COMMA | 54 | , |
    | KEY_PERIOD | 55 | . |
    | KEY_SLASH | 56 | / |
