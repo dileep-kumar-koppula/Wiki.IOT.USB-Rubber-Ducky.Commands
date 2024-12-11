@@ -1,11 +1,11 @@
 # DigiKeyboard Key Code Reference
 
 ## Usage
-```cpp
-DigiKeyboard.sendKeyStroke(KEY_ENTER);
-```
-
 ## Alphabets
+```cpp
+DigiKeyboard.sendKeyStroke(KEY_A);
+DigiKeyboard.sendKeyStroke(4);
+```
 | Key      | Code | Description |
 |:--------:|:----:|:-----------:|
 | KEY_A   | 4    | a key       |
