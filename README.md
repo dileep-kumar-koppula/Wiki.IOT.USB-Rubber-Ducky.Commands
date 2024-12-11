@@ -1,17 +1,19 @@
 # DigiKeyboard Key Code Reference
 ## Usage
+   + Using Key
+     ```cpp
+     DigiKeyboard.sendKeyStroke(KEY_G);
+     ```
+   + Code
+     ```cpp
+     DigiKeyboard.sendKeyStroke(10);
+     ```
    + Combinations
      ```cpp
      DigiKeyboard.sendKeyStroke(KEY_2, MOD_SHIFT_LEFT);
      ```
-
+-
 ## Alphabets
-   ```cpp
-   DigiKeyboard.sendKeyStroke(KEY_G);
-   ```
-   ```cpp
-   DigiKeyboard.sendKeyStroke(10);
-   ```
    | Key | Code | Output |
    |:---:|:----:|:------:|
    | KEY_A | 4 | a |
@@ -42,14 +44,8 @@
    | KEY_Z | 29 | z |
 
 ## Numbers
-   ```cpp
-   DigiKeyboard.sendKeyStroke(KEY_4);
-   ```
-   ```cpp
-   DigiKeyboard.sendKeyStroke(33);
-   ```
    | Key | Code | Output |
-   |:--------:|:----:|:-----------:|
+   |:---:|:----:|:------:|
    | KEY_1 | 30 | 1 |
    | KEY_2 | 31 | 2 |
    | KEY_3 | 32 | 3 |
@@ -62,145 +58,124 @@
    | KEY_0 | 39 | 0 |
 
 ## Keys
-   ```cpp
-   DigiKeyboard.sendKeyStroke(KEY_);
-   ```
-   ```cpp
-   DigiKeyboard.sendKeyStroke(KEY_G);
-   ```
-| Key              | Code | Description       |
-|:----------------:|:----:|:-----------------:|
-| KEY_ENTER        | 40   | Enter key         |
-| KEY_ESCAPE       | 41   | Escape key        |
-| KEY_BACKSPACE    | 42   | Backspace key     |
-| KEY_TAB          | 43   | Tab key           |
-| KEY_SPACE        | 44   | Space Key         |
+   | Key | Code | Description |
+   |:---:|:----:|:-----------:|
+   | KEY_ENTER | 40 | Enter key |
+   | KEY_ESCAPE | 41 | Escape key |
+   | KEY_BACKSPACE | 42 | Backspace key |
+   | KEY_TAB | 43 | Tab key |
+   | KEY_SPACE | 44 | Space Key |
 
 ## Symbols
-| Key              | Code | Description       |
-|:----------------:|:----:|:-----------------:|
-| KEY_MINUS        | 45   | Minus key         |
-| KEY_EQUAL        | 46   | Equal key         |
-| KEY_LEFT_BRACE   | 47   | [ key    |
-| KEY_RIGHT_BRACE  | 48   | ] key   |
-| KEY_BACKSLASH    | 49   | Backslash key     |
-| KEY_SEMICOLON    | 51   | Semicolon key     |
-| KEY_APOSTROPHE   | 52   | Apostrophe key    |
-| KEY_GRAVE        | 53   | Grave key         |
-| KEY_COMMA        | 54   | Comma key         |
-| KEY_PERIOD       | 55   | Period key        |
-| KEY_SLASH        | 56   | Slash key         |
-| KEY_CAPS_LOCK    | 57   | Caps Lock key     |
+   | Key | Code | Output |
+   |:---:|:----:|:------:|
+   | KEY_MINUS | 45 | - |
+   | KEY_EQUAL | 46 | = |
+   | KEY_LEFT_BRACE | 47 | [ |
+   | KEY_RIGHT_BRACE | 48 | ] |
+   | KEY_BACKSLASH | 49 | \ |
+   | KEY_SEMICOLON | 51 | ; |
+   | KEY_APOSTROPHE | 52 | - |
+   | KEY_GRAVE | 53 | Grave |
+   | KEY_COMMA | 54 | , |
+   | KEY_PERIOD | 55 | . |
+   | KEY_SLASH | 56 | / |
+   | KEY_CAPS_LOCK | 57 | Caps Lock |
 
 ## Function Keys
-   ```cpp
-   DigiKeyboard.sendKeyStroke(KEY_A);
-   ```
-| Key      | Code | Description |
-|:---------:|:----:|:----------:|
-| KEY_F1    | 58   | F1 key       |
-| KEY_F2    | 59   | F2 key       |
-| KEY_F3    | 60   | F3 key       |
-| KEY_F4    | 61   | F4 key       |
-| KEY_F5    | 62   | F5 key       |
-| KEY_F6    | 63   | F6 key       |
-| KEY_F7    | 64   | F7 key       |
-| KEY_F8    | 65   | F8 key       |
-| KEY_F9    | 66   | F9 key       |
-| KEY_F10   | 67   | F10 key      |
-| KEY_F11   | 68   | F11 key      |
-| KEY_F12   | 69   | F12 key      |
+   | Key | Code | Description |
+   |:---------:|:----:|:----------:|
+   | KEY_F1 | 58 | F1 key |
+   | KEY_F2 | 59 | F2 key |
+   | KEY_F3 | 60 | F3 key |
+   | KEY_F4 | 61 | F4 key |
+   | KEY_F5 | 62 | F5 key |
+   | KEY_F6 | 63 | F6 key |
+   | KEY_F7 | 64 | F7 key |
+   | KEY_F8 | 65 | F8 key |
+   | KEY_F9 | 66 | F9 key |
+   | KEY_F10 | 67 | F10 key |
+   | KEY_F11 | 68 | F11 key |
+   | KEY_F12 | 69 | F12 key |
 
 ## Other Keys
-   ```cpp
-   DigiKeyboard.sendKeyStroke(KEY_A);
-   ```
-| Key               | Code | Description      |
-|:-----------------:|:----:|:-----------------:|
-| KEY_PRINTSCREEN    | 70   | Print Screen key  |
-| KEY_SCROLL_LOCK     | 71   | Scroll Lock key   |
-| KEY_PAUSE           | 72   | Pause key         |
-| KEY_INSERT          | 73   | Insert key        |
-| KEY_HOME            | 74   | Home key          |
-| KEY_PAGE_UP         | 75   | Page Up key       |
-| KEY_DELETE          | 76   | Delete key        |
-| KEY_END             | 77   | End key           |
+   | Key | Code | Description |
+   |:-----------------:|:----:|:-----------------:|
+   | KEY_PRINTSCREEN    | 70   | Print Screen key  |
+   | KEY_SCROLL_LOCK     | 71   | Scroll Lock key   |
+   | KEY_PAUSE           | 72   | Pause key         |
+   | KEY_INSERT          | 73   | Insert key        |
+   | KEY_HOME            | 74   | Home key          |
+   | KEY_PAGE_UP         | 75   | Page Up key       |
+   | KEY_DELETE          | 76   | Delete key        |
+   | KEY_END             | 77   | End key           |
 
 ## Arrows
-   ```cpp
-   DigiKeyboard.sendKeyStroke(KEY_A);
-   ```
-| Key               | Code | Description      |
-|:-----------------:|:----:|:-----------------:|
-| KEY_PAGE_DOWN       | 78   | Page Down key     |
-| KEY_ARROW_RIGHT     | 79   | Right Arrow key   |
-| KEY_ARROW_LEFT      | 80   | Left Arrow key    |
-| KEY_ARROW_DOWN      | 81   | Down Arrow key    |
-| KEY_ARROW_UP        | 82   | Up Arrow key      |
+   | Key | Code | Description |
+   |:---:|:----:|:-----------:|
+   | KEY_PAGE_DOWN | 78 | Page Down |
+   | KEY_ARROW_RIGHT | 79 | Right Arrow |
+   | KEY_ARROW_LEFT | 80 | Left Arrow |
+   | KEY_ARROW_DOWN | 81 | Down Arrow |
+   | KEY_ARROW_UP | 82 | Up Arrow |
 
 ## Keypad buttons
-   ```cpp
-   DigiKeyboard.sendKeyStroke(KEY_A);
-   ```
-| Code | Description |
-|:----:|:-----------:|
-| 83  | Num lock key |
-| 84  | / key |
-| 85  | * key |
-| 86  | - key |
-| 87  | + key |
-| 88  | Enter key |
-| 89  | 1 key |
-| 90  | 2 key |
-| 91  | 3 key |
-| 92  | 4 key |
-| 93  | 5 key |
-| 94  | 6 key |
-| 95  | 7 key |
-| 96  | 8 key |
-| 97  | 9 key |
-| 98  | 0 key |
-| 99  | . key |
-| 100  | < key |
+   | Code | Output |
+   |:----:|:------:|
+   | 83 | Num lock |
+   | 84 | / |
+   | 85 | * |
+   | 86 | - |
+   | 87 | + |
+   | 88 | Enter key |
+   | 89 | 1 |
+   | 90 | 2 |
+   | 91 | 3 |
+   | 92 | 4 |
+   | 93 | 5 |
+   | 94 | 6 |
+   | 95 | 7 |
+   | 96 | 8 |
+   | 97 | 9 |
+   | 98 | 0 |
+   | 99 | . |
+   | 100 | < |
 
 ## Controls
-   ```cpp
-   DigiKeyboard.sendKeyStroke(KEY_A);
-   ```
-| Key              | Description                     |
-|:----------------:|:-------------------------------:|
-| MOD_CONTROL_LEFT  | Left Control key                |
-| MOD_SHIFT_LEFT    | Left Shift key                  |
-| MOD_ALT_LEFT      | Left Alt key                    |
-| MOD_GUI_LEFT      | Left Windows logo key           |
-| MOD_CONTROL_RIGHT | Right Control key               |
-| MOD_SHIFT_RIGHT   | Right Shift key                 |
-| MOD_ALT_RIGHT     | Right Alt key                   |
-| MOD_GUI_RIGHT     | Right Windows logo key          |
+   | Key | Description |
+   |:----------------:|:-------------------------------:|
+   | MOD_CONTROL_LEFT | Left Control key |
+   | MOD_SHIFT_LEFT | Left Shift key |
+   | MOD_ALT_LEFT | Left Alt key |
+   | MOD_GUI_LEFT | Left Windows logo key |
+   | MOD_CONTROL_RIGHT | Right Control key |
+   | MOD_SHIFT_RIGHT | Right Shift key |
+   | MOD_ALT_RIGHT | Right Alt key |
+   | MOD_GUI_RIGHT | Right Windows logo key |
 
 ## Others
-Usage:
-```cpp
-DigiKeyboard.sendKeyStroke('0');
-```
-+ All Respective series i.e. If "2" as an example, all 2 in ten's place (2, 12, 22, 32,....) will work as same
-| Code | Description |
-|:---:|:-----------:|
-| '0' | ] key |
-| '1' | \ key|
-| '2' | \ key|
-| '3' | ; key|
-| '4' | ' key|
-| '5' | ` key|
-| '6' | , key|
-| '7' | . key|
-| '8' | / key|
-| '9' | Shift key|
-
-+ Only below code will work with combinations
-```cpp
-DigiKeyboard.sendKeyStroke('20' , '19');
-```
+   Usage:
+   ```cpp
+   DigiKeyboard.sendKeyStroke('0');
+   ```
+   + All Respective series i.e. If "2" as an example, all 2 in ten's place (2, 12, 22, 32,....) will work as same
+     | Code | Output |
+     |:---:|:-----------:|
+     | '0' | ] |
+     | '1' | \ |
+     | '2' | \ |
+     | '3' | ; |
+     | '4' | ' |
+     | '5' | ` |
+     | '6' | , |
+     | '7' | . |
+     | '8' | / |
+     | '9' | Shift |
+   
+   + Only below code will work with combinations
+     ```cpp
+     DigiKeyboard.sendKeyStroke('20' , '19');
+     ```
 
 
 
