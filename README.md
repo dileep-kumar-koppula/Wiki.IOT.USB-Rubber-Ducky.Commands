@@ -1,11 +1,17 @@
 # DigiKeyboard Key Code Reference
 
-## Usage
-## Alphabets
+You can Key or it's resp. Code
+Example:
 ```cpp
 DigiKeyboard.sendKeyStroke(KEY_A);
+```
+or
+```cpp
 DigiKeyboard.sendKeyStroke(4);
 ```
+
+## Usage
+## Alphabets
 | Key      | Code | Description |
 |:--------:|:----:|:-----------:|
 | KEY_A   | 4    | a key       |
