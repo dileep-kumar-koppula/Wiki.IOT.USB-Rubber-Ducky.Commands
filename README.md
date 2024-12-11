@@ -124,28 +124,42 @@ Example:
 ## Keypad buttons
 Code | Description |
 :-----:|:------:|
-83  | Num lock key
-84  | / key
-85  | * key
-86  | - key
-87  | + key
-88  | Enter key
-89  | 1 key
-90  | 2 key
-91  | 3 key
-92  | 4 key
-93  | 5 key
-94  | 6 key
-95  | 7 key
-96  | 8 key
-97  | 9 key
-98  | 0 key
-99  | . key
-100  | < key
+| 83  | Num lock key |
+| 84  | / key |
+| 85  | * key |
+| 86  | - key |
+| 87  | + key |
+| 88  | Enter key |
+| 89  | 1 key |
+| 90  | 2 key |
+| 91  | 3 key |
+| 92  | 4 key |
+| 93  | 5 key |
+| 94  | 6 key |
+| 95  | 7 key |
+| 96  | 8 key |
+| 97  | 9 key |
+| 98  | 0 key |
+| 99  | . key |
+| 100  | < key |
 
 
-## Symbols
-| Key | Description |
+## Others
+| Code | Description |
 |:---:|:-----------:|
-| ]   | Some symbol |
-| \   | Backslash   |
+| '0', 10, 20 30 40 50 60 70 80 90 | ] symbol |
+| '1' 11 21  | \ Backslash key|
+| '2' 12 22  | \ Backslash key|
+| '3'   | ; key|
+| '4'   | ' key|
+| '5'   | ` key|
+| '6'   | , key|
+| '7'   | . key|
+| '8'   | / key|
+| '9'   | Shift key|
+
+
+
+
+
+
