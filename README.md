@@ -10,7 +10,6 @@ DigiKeyboard.sendKeyStroke(KEY_ENTER);
 |---------:|:----:|:----------:|
 | KEY_A   | 4    | a key       |
 | KEY_B   | 5    | b key       |
-
 | KEY_C   | 6    | c key       |
 | KEY_D   | 7    | d key       |
 | KEY_E   | 8    | e key       |
