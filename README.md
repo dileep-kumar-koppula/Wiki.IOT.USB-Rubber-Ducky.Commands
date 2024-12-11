@@ -6,7 +6,6 @@ Example:
   ```cpp
   DigiKeyboard.sendKeyStroke(KEY_A);
   ```
-  or
 + By using Codes
   ```cpp
   DigiKeyboard.sendKeyStroke(4);
