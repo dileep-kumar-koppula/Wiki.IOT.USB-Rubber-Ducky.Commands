@@ -121,6 +121,29 @@ Example:
 | MOD_ALT_RIGHT     | Right Alt key                   |
 | MOD_GUI_RIGHT     | Right Windows logo key          |
 
+## Keypad buttons
+Code | Description |
+:-----:|:------:|
+83  | Num lock key
+84  | / key
+85  | * key
+86  | - key
+87  | + key
+88  | Enter key
+89  | 1 key
+90  | 2 key
+91  | 3 key
+92  | 4 key
+93  | 5 key
+94  | 6 key
+95  | 7 key
+96  | 8 key
+97  | 9 key
+98  | 0 key
+99  | . key
+100  | < key
+
+
 ## Symbols
 | Key | Description |
 |:---:|:-----------:|
