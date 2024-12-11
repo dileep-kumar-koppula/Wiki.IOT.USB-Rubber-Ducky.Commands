@@ -2,10 +2,12 @@
 
 You can Key or it's resp. Code
 Example:
+By using Keys
 ```cpp
 DigiKeyboard.sendKeyStroke(KEY_A);
 ```
-  or
+or
++ By using Codes
 ```cpp
 DigiKeyboard.sendKeyStroke(4);
 ```
