@@ -11,7 +11,6 @@ Example:
   DigiKeyboard.sendKeyStroke(4);
   ```
 
-## Usage
 ## Alphabets
 | Key      | Code | Description |
 |:--------:|:----:|:-----------:|
