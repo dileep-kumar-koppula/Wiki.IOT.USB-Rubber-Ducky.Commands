@@ -109,11 +109,11 @@
    | KEY_PAGE_UP | 75 | Page Up |
    | KEY_DELETE | 76 | Delete |
    | KEY_END | 77 | End key |
+   | KEY_PAGE_DOWN | 78 | Page Down |
 
 ## Arrows
    | Key | Code | Description |
    |:---:|:----:|:-----------:|
-   | KEY_PAGE_DOWN | 78 | Page Down |
    | KEY_ARROW_RIGHT | 79 | Right Arrow |
    | KEY_ARROW_LEFT | 80 | Left Arrow |
    | KEY_ARROW_DOWN | 81 | Down Arrow |
