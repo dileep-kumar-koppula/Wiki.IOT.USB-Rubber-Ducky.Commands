@@ -12,7 +12,7 @@
      ```cpp
      DigiKeyboard.sendKeyStroke(KEY_2, MOD_SHIFT_LEFT);
      ```
---
+---
 ## Alphabets
    | Key | Code | Output |
    |:---:|:----:|:------:|
