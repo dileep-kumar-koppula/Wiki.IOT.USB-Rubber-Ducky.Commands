@@ -101,14 +101,14 @@
 ## Other Keys
    | Key | Code | Description |
    |:-----------------:|:----:|:-----------------:|
-   | KEY_PRINTSCREEN    | 70   | Print Screen key  |
-   | KEY_SCROLL_LOCK     | 71   | Scroll Lock key   |
-   | KEY_PAUSE           | 72   | Pause key         |
-   | KEY_INSERT          | 73   | Insert key        |
-   | KEY_HOME            | 74   | Home key          |
-   | KEY_PAGE_UP         | 75   | Page Up key       |
-   | KEY_DELETE          | 76   | Delete key        |
-   | KEY_END             | 77   | End key           |
+   | KEY_PRINTSCREEN | 70 | Print Screen |
+   | KEY_SCROLL_LOCK | 71 | Scroll Lock |
+   | KEY_PAUSE | 72 | Pause |
+   | KEY_INSERT | 73 | Insert |
+   | KEY_HOME | 74 | Home |
+   | KEY_PAGE_UP | 75 | Page Up |
+   | KEY_DELETE | 76 | Delete |
+   | KEY_END | 77 | End key |
 
 ## Arrows
    | Key | Code | Description |
