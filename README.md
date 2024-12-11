@@ -5,7 +5,7 @@ Example:
 ```cpp
 DigiKeyboard.sendKeyStroke(KEY_A);
 ```
-or
+  or
 ```cpp
 DigiKeyboard.sendKeyStroke(4);
 ```
