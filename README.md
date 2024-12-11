@@ -7,7 +7,7 @@ By using Keys
 DigiKeyboard.sendKeyStroke(KEY_A);
 ```
 or
-+ By using Codes
+`By using Codes `
 ```cpp
 DigiKeyboard.sendKeyStroke(4);
 ```
