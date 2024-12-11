@@ -108,23 +108,15 @@ Example:
 | KEY_PAGE_UP         | 75   | Page Up key       |
 | KEY_DELETE          | 76   | Delete key        |
 | KEY_END             | 77   | End key           |
+
+## Arrows
+| Key               | Code | Description      |
+|:-----------------:|:----:|:-----------------:|
 | KEY_PAGE_DOWN       | 78   | Page Down key     |
 | KEY_ARROW_RIGHT     | 79   | Right Arrow key   |
 | KEY_ARROW_LEFT      | 80   | Left Arrow key    |
 | KEY_ARROW_DOWN      | 81   | Down Arrow key    |
 | KEY_ARROW_UP        | 82   | Up Arrow key      |
-
-## Controls
-| Key              | Description                     |
-|:----------------:|:--------------------------------:|
-| MOD_CONTROL_LEFT  | Left Control key                |
-| MOD_SHIFT_LEFT    | Left Shift key                  |
-| MOD_ALT_LEFT      | Left Alt key                    |
-| MOD_GUI_LEFT      | Left Windows logo key           |
-| MOD_CONTROL_RIGHT | Right Control key               |
-| MOD_SHIFT_RIGHT   | Right Shift key                 |
-| MOD_ALT_RIGHT     | Right Alt key                   |
-| MOD_GUI_RIGHT     | Right Windows logo key          |
 
 ## Keypad buttons
 | Code | Description |
@@ -148,6 +140,17 @@ Example:
 | 99  | . key |
 | 100  | < key |
 
+## Controls
+| Key              | Description                     |
+|:----------------:|:-------------------------------:|
+| MOD_CONTROL_LEFT  | Left Control key                |
+| MOD_SHIFT_LEFT    | Left Shift key                  |
+| MOD_ALT_LEFT      | Left Alt key                    |
+| MOD_GUI_LEFT      | Left Windows logo key           |
+| MOD_CONTROL_RIGHT | Right Control key               |
+| MOD_SHIFT_RIGHT   | Right Shift key                 |
+| MOD_ALT_RIGHT     | Right Alt key                   |
+| MOD_GUI_RIGHT     | Right Windows logo key          |
 
 ## Others
 Usage:
