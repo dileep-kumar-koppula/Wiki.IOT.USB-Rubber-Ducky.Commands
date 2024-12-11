@@ -7,7 +7,7 @@ DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
 ## Alphabets
 | Key      | Code | Description |
-|----------|:----:|:----------:|
+|---------:|:----:|:----------:|
 | KEY_A   | 4    | a key       |
 | KEY_B   | 5    | b key       |
 | KEY_C   | 6    | c key       |
@@ -51,7 +51,7 @@ DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
 ## Modules
 | Key              | Code | Description       |
-|------------------|------|-------------------|
+|:------------------:|:------:|:-------------------:|
 | KEY_ENTER        | 40   | Enter key         |
 | KEY_ESCAPE       | 41   | Escape key        |
 | KEY_BACKSPACE    | 42   | Backspace key     |
