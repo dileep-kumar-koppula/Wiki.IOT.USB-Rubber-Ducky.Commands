@@ -7,7 +7,7 @@ DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
 ## Alphabets
 | Key      | Code | Description |
-|:---------:|:----:|:----------:|
+|:--------:|:----:|:-----------:|
 | KEY_A   | 4    | a key       |
 | KEY_B   | 5    | b key       |
 | KEY_C   | 6    | c key       |
@@ -37,7 +37,7 @@ DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
 ## Numbers
 | Key      | Code | Description |
-|----------|------|-------------|
+|:--------:|:----:|:-----------:|
 | KEY_1    | 30   | 1 key       |
 | KEY_2    | 31   | 2 key       |
 | KEY_3    | 32   | 3 key       |
@@ -51,7 +51,7 @@ DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
 ## Modules
 | Key              | Code | Description       |
-|:------------------:|:------:|:-------------------:|
+|:----------------:|:----:|:-----------------:|
 | KEY_ENTER        | 40   | Enter key         |
 | KEY_ESCAPE       | 41   | Escape key        |
 | KEY_BACKSPACE    | 42   | Backspace key     |
@@ -72,7 +72,7 @@ DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
 ## Function Keys
 | Key      | Code | Description |
-|----------|------|-------------|
+|:---------:|:----:|:----------:|
 | KEY_F1    | 58   | F1 key       |
 | KEY_F2    | 59   | F2 key       |
 | KEY_F3    | 60   | F3 key       |
@@ -88,7 +88,7 @@ DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
 ## Other Keys
 | Key               | Code | Description      |
-|-------------------|------|------------------|
+|:-----------------:|:----:|:-----------------:|
 | KEY_PRINTSCREEN    | 70   | Print Screen key  |
 | KEY_SCROLL_LOCK     | 71   | Scroll Lock key   |
 | KEY_PAUSE           | 72   | Pause key         |
@@ -105,7 +105,7 @@ DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
 ## Controls
 | Key              | Description                     |
-|------------------|---------------------------------|
+|:----------------:|:-------------------------------:|
 | MOD_CONTROL_LEFT  | Left Control key                |
 | MOD_SHIFT_LEFT    | Left Shift key                  |
 | MOD_ALT_LEFT      | Left Alt key                    |
@@ -117,6 +117,6 @@ DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
 ## Symbols
 | Key | Description |
-|-----|-------------|
+|:---:|:-----------:|
 | ]   | Some symbol |
 | \   | Backslash   |
