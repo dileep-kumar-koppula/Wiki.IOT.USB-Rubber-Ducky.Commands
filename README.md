@@ -10,6 +10,11 @@ Example:
   ```cpp
   DigiKeyboard.sendKeyStroke(4);
   ```
+------  
++ Combinations
+  ```cpp
+  DigiKeyboard.sendKeyStroke(KEY_2, MOD_SHIFT_LEFT);
+  ```
 
 ## Alphabets
 | Key      | Code | Description |
@@ -111,7 +116,7 @@ Example:
 
 ## Controls
 | Key              | Description                     |
-|:----------------:|:-------------------------------:|
+|:----------------:|:--------------------------------:|
 | MOD_CONTROL_LEFT  | Left Control key                |
 | MOD_SHIFT_LEFT    | Left Shift key                  |
 | MOD_ALT_LEFT      | Left Alt key                    |
@@ -122,8 +127,8 @@ Example:
 | MOD_GUI_RIGHT     | Right Windows logo key          |
 
 ## Keypad buttons
-Code | Description |
-:-----:|:------:|
+| Code | Description |
+|:----:|:-----------:|
 | 83  | Num lock key |
 | 84  | / key |
 | 85  | * key |
@@ -145,19 +150,28 @@ Code | Description |
 
 
 ## Others
+Usage:
+```cpp
+DigiKeyboard.sendKeyStroke('0');
+```
++ All Respective series i.e. If "2" as an example, all 2 in ten's place (2, 12, 22, 32,....) will work as same
 | Code | Description |
 |:---:|:-----------:|
-| '0', 10, 20 30 40 50 60 70 80 90 | ] symbol |
-| '1' 11 21  | \ Backslash key|
-| '2' 12 22  | \ Backslash key|
-| '3'   | ; key|
-| '4'   | ' key|
-| '5'   | ` key|
-| '6'   | , key|
-| '7'   | . key|
-| '8'   | / key|
-| '9'   | Shift key|
+| '0' | ] key |
+| '1' | \ key|
+| '2' | \ key|
+| '3' | ; key|
+| '4' | ' key|
+| '5' | ` key|
+| '6' | , key|
+| '7' | . key|
+| '8' | / key|
+| '9' | Shift key|
 
++ Only below code will work with combinations
+```cpp
+DigiKeyboard.sendKeyStroke('20' , '19');
+```
 
 
 
