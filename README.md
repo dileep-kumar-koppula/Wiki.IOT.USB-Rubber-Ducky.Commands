@@ -12,34 +12,34 @@
    ```cpp
    DigiKeyboard.sendKeyStroke(10);
    ```
-| Key      | Code | Description |
-|:--------:|:----:|:-----------:|
-| KEY_A   | 4    | a key       |
-| KEY_B   | 5    | b key       |
-| KEY_C   | 6    | c key       |
-| KEY_D   | 7    | d key       |
-| KEY_E   | 8    | e key       |
-| KEY_F   | 9    | f key       |
-| KEY_G   | 10   | g key       |
-| KEY_H   | 11   | h key       |
-| KEY_I   | 12   | i key       |
-| KEY_J   | 13   | j key       |
-| KEY_K   | 14   | k key       |
-| KEY_L   | 15   | l key       |
-| KEY_M   | 16   | m key       |
-| KEY_N   | 17   | n key       |
-| KEY_O   | 18   | o key       |
-| KEY_P   | 19   | p key       |
-| KEY_Q   | 20   | q key       |
-| KEY_R   | 21   | r key       |
-| KEY_S   | 22   | s key       |
-| KEY_T   | 23   | t key       |
-| KEY_U   | 24   | u key       |
-| KEY_V   | 25   | v key       |
-| KEY_W   | 26   | w key       |
-| KEY_X   | 27   | x key       |
-| KEY_Y   | 28   | y key       |
-| KEY_Z   | 29   | z key       |
+   | Key | Code | Output |
+   |:---:|:----:|:------:|
+   | KEY_A | 4 | a |
+   | KEY_B | 5 | b |
+   | KEY_C | 6 | c |
+   | KEY_D | 7 | d |
+   | KEY_E | 8 | e |
+   | KEY_F | 9 | f |
+   | KEY_G | 10 | g |
+   | KEY_H | 11 | h |
+   | KEY_I | 12 | i |
+   | KEY_J | 13 | j |
+   | KEY_K | 14 | k |
+   | KEY_L | 15 | l |
+   | KEY_M | 16 | m |
+   | KEY_N | 17 | n |
+   | KEY_O | 18 | o |
+   | KEY_P | 19 | p |
+   | KEY_Q | 20 | q |
+   | KEY_R | 21 | r |
+   | KEY_S | 22 | s |
+   | KEY_T | 23 | t |
+   | KEY_U | 24 | u |
+   | KEY_V | 25 | v |
+   | KEY_W | 26 | w |
+   | KEY_X | 27 | x |
+   | KEY_Y | 28 | y |
+   | KEY_Z | 29 | z |
 
 ## Numbers
    ```cpp
@@ -48,18 +48,18 @@
    ```cpp
    DigiKeyboard.sendKeyStroke(33);
    ```
-| Key      | Code | Description |
-|:--------:|:----:|:-----------:|
-| KEY_1    | 30   | 1 key       |
-| KEY_2    | 31   | 2 key       |
-| KEY_3    | 32   | 3 key       |
-| KEY_4    | 33   | 4 key       |
-| KEY_5    | 34   | 5 key       |
-| KEY_6    | 35   | 6 key       |
-| KEY_7    | 36   | 7 key       |
-| KEY_8    | 37   | 8 key       |
-| KEY_9    | 38   | 9 key       |
-| KEY_0    | 39   | 0 key       |
+   | Key | Code | Output |
+   |:--------:|:----:|:-----------:|
+   | KEY_1 | 30 | 1 |
+   | KEY_2 | 31 | 2 |
+   | KEY_3 | 32 | 3 |
+   | KEY_4 | 33 | 4 |
+   | KEY_5 | 34 | 5 |
+   | KEY_6 | 35 | 6 |
+   | KEY_7 | 36 | 7 |
+   | KEY_8 | 37 | 8 |
+   | KEY_9 | 38 | 9 |
+   | KEY_0 | 39 | 0 |
 
 ## Keys
    ```cpp
